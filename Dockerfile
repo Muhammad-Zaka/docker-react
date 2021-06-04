@@ -1,4 +1,4 @@
-#prod1
+
 FROM node:alpine AS builder
 WORKDIR '/app'
 COPY package.json .
